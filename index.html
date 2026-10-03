@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rifle Dope Book</title>
+<meta name="description" content="A smarter data book for precision shooters.">
+<meta property="og:title" content="Rifle Dope Book: coming soon">
+<meta property="og:description" content="A smarter data book for precision shooters.">
+<meta property="og:image" content="https://rifledopebook.com/icon.png">
+<meta name="theme-color" content="#12160F">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #12160F; --card: #1A2016; --line: #343C2C;
+    --ink: #E5E9DC; --muted: #9BA48F; --olive: #9FBF7A; --brass: #E2B35C;
+    --display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+    --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink); font-family: var(--body);
+    display: grid; place-items: center; padding-inline: 20px;
+    padding-block: max(32px, env(safe-area-inset-top)) max(32px, env(safe-area-inset-bottom));
+    background-image:
+      radial-gradient(circle at 50% 38%, rgba(159,191,122,.10), transparent 55%),
+      repeating-radial-gradient(circle at 50% 38%, transparent 0 119px, rgba(159,191,122,.06) 119px 120px);
+  }
+  main { max-width: 640px; text-align: center; display: grid; gap: 22px; justify-items: center; }
+  .icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 12px 40px rgba(0,0,0,.45); }
+  .eyebrow {
+    font-family: var(--display); font-weight: 600; letter-spacing: .28em; text-transform: uppercase;
+    color: var(--brass); font-size: .95rem;
+  }
+  h1 {
+    margin: 0; font-family: var(--display); font-weight: 700; text-transform: uppercase;
+    font-size: clamp(2.8rem, 10vw, 4.8rem); line-height: .95; letter-spacing: .03em;
+  }
+  .tagline { margin: 0; font-size: clamp(1.05rem, 3.6vw, 1.3rem); line-height: 1.5; color: var(--ink); max-width: 34ch; text-wrap: balance; }
+  .platforms { color: var(--muted); font-size: .95rem; }
+  footer { color: var(--muted); font-size: .8rem; margin-top: 18px; opacity: .8; }
+</style>
+</head>
+<body>
+  <main>
+    <img class="icon" src="icon.png" alt="Rifle Dope Book icon: a scope reticle">
+    <div class="eyebrow">Coming soon</div>
+    <h1>Rifle Dope Book</h1>
+    <p class="tagline">A smarter data book for precision shooters.</p>
+    <div class="platforms">For iPhone, iPad and Mac</div>
+    <footer>© 2026 Rifle Dope Book</footer>
+  </main>
+</body>
+</html>
